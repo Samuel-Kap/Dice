@@ -15,7 +15,7 @@ void draw()
 {
    dieVal=(int)((Math.random()*6)+1);
   background(0);
-  for(int i = 0; i < 100; i++)
+  for(int i = 0; i < 96; i++)
   {
     Die bob = new Die(nX,nY);
     bob.show();
